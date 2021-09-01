@@ -1,0 +1,88 @@
+Date : 2021-08-20 17:35:49
+Directory : c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程
+Total : 55 files,  5314 codes, 1609 comments, 627 blanks, all 7550 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C        |         27 |      2,860 |      1,110 |        366 |      4,336 |
+| nasm     |         11 |      1,353 |        265 |        104 |      1,722 |
+| C++      |         16 |        926 |        223 |        108 |      1,257 |
+| Makefile |          1 |        175 |         11 |         49 |        235 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |         55 |      5,314 |      1,609 |        627 |      7,550 |
+| boot                                                                               |          6 |        789 |        122 |         60 |        971 |
+| boot\include                                                                       |          4 |        188 |         51 |         21 |        260 |
+| fs                                                                                 |          5 |        761 |        415 |        148 |      1,324 |
+| include                                                                            |         17 |        958 |        228 |        110 |      1,296 |
+| kernel                                                                             |         16 |      2,094 |        627 |        201 |      2,922 |
+| lib                                                                                |         10 |        537 |        206 |         59 |        802 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                           | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\Makefile                  | Makefile |        175 |         11 |         49 |        235 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\boot\boot.asm             | nasm     |        197 |         20 |         15 |        232 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\boot\include\fat12hdr.inc | nasm     |         24 |          9 |          1 |         34 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\boot\include\lib.inc      | nasm     |        116 |         20 |         12 |        148 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\boot\include\loader.inc   | nasm     |         10 |          4 |          1 |         15 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\boot\include\pm.inc       | nasm     |         38 |         18 |          7 |         63 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\boot\loader.asm           | nasm     |        404 |         51 |         24 |        479 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\fs\link.c                 | C        |        130 |         66 |         20 |        216 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\fs\main.c                 | C        |        259 |        154 |         48 |        461 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\fs\misc.c                 | C        |         63 |         52 |         12 |        127 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\fs\open.c                 | C        |        216 |        121 |         53 |        390 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\fs\read_write.c           | C        |         93 |         22 |         15 |        130 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\config.h          | C++      |          4 |          0 |          0 |          4 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\console.h         | C++      |         17 |          0 |          3 |         20 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\const.h           | C++      |        139 |         45 |         23 |        207 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\elf.h             | C++      |         48 |          1 |          5 |         54 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\fs.h              | C++      |         50 |         65 |         12 |        127 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\global.h          | C++      |         33 |          1 |          1 |         35 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\hd.h              | C++      |         58 |         54 |         18 |        130 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\keyboard.h        | C++      |         95 |         17 |         13 |        125 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\keymap.h          | C++      |        133 |          7 |          6 |        146 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\process.h         | C++      |        100 |         10 |          4 |        114 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\protect.h         | C++      |        128 |         18 |         17 |        163 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\proto.h           | C++      |         72 |          2 |          2 |         76 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\sconst.inc        | nasm     |         32 |          5 |          2 |         39 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\stdio.h           | C++      |         12 |          1 |          1 |         14 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\string.h          | C++      |          7 |          0 |          0 |          7 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\tty.h             | C++      |         18 |          2 |          3 |         23 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\include\type.h            | C++      |         12 |          0 |          0 |         12 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\clock.c            | C        |         37 |         16 |          5 |         58 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\console.c          | C        |        105 |         29 |          9 |        143 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\global.c           | C        |         39 |         24 |          8 |         71 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\hd.c               | C        |        270 |        112 |         19 |        401 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\i8259A.c           | C        |         37 |         22 |          8 |         67 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\kernel.asm         | nasm     |        251 |         78 |         20 |        349 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\keyboard.c         | C        |        269 |         62 |         17 |        348 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\main.c             | C        |        174 |         40 |         40 |        254 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\printf.c           | C        |         32 |         15 |          5 |         52 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\process.c          | C        |        303 |         52 |         13 |        368 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\protect.c          | C        |        165 |         28 |          9 |        202 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\start.c            | C        |         29 |          8 |          1 |         38 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\syscall.asm        | nasm     |         20 |          4 |          5 |         29 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\systask.c          | C        |         30 |          3 |          1 |         34 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\tty.c              | C        |        231 |        120 |         26 |        377 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\kernel\vsprintf.c         | C        |        102 |         14 |         15 |        131 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\close.c               | C        |         21 |         11 |          3 |         35 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\fork.c                | C        |         22 |         15 |          3 |         40 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\klib.c                | C        |        114 |         48 |         16 |        178 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\kliba.asm             | nasm     |        178 |         42 |         12 |        232 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\misc.c                | C        |         27 |         23 |          5 |         55 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\open.c                | C        |         24 |         14 |          5 |         43 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\read.c                | C        |         23 |         14 |          3 |         40 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\string.asm            | nasm     |         83 |         14 |          5 |        102 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\unlink.c              | C        |         22 |         11 |          4 |         37 |
+| c:\Users\带ta去蒙古国\Desktop\自己动手写操作系统\第十章 内存管理\01 fork一个子进程\lib\write.c               | C        |         23 |         14 |          3 |         40 |
+| Total                                                                              |          |      5,314 |      1,609 |        627 |      7,550 |
++------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

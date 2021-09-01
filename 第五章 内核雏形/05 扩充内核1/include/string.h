@@ -1,0 +1,1 @@
+PUBLIC void *memcpy(void *pDest, void *pSrc, int iSize);
